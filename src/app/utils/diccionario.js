@@ -1,0 +1,86 @@
+// dictionary.js
+const dictionary = {
+    en: {
+      invalidEmail: 'Invalid email',
+      emailRequired: 'Email is required',
+      passwordRequired: 'Password is required',
+      passwordMinLength: 'Password must be at least 3 characters',
+      greet: 'Hi',
+      exit: 'Exit',
+      customer: 'Customer',
+      newCustomer: 'New Customer',
+      orders: 'Orders',
+      products: 'Products',
+      newProduct: 'New Product',
+      noData: 'No data to show',
+      available: 'available', 
+      delete: 'Delete',
+      edit: 'Edit',
+      comfirmDeleteCustomer: 'Do you want to delete this client?',
+      comfirmDeleteProduct: 'Do you want to delete this product?',
+      warningMessage: 'This action can not be undone!',
+      confirmButtonText: 'Yes, delete!',
+      cancelButtonText: 'No, cancel!',
+      removed: 'removed',
+      acept: 'Acept',
+      formName: 'Name is Required',
+      forExistence: 'Existence is Mandatory',
+      price: 'Price is Mandatory',
+      name: 'name',
+      existence: 'existence',
+      newOrder: 'New Order',
+      registerOrder: 'Order Register',
+      bestCustomers: 'Best Customers',
+      bestSellers: 'Best Sellers'
+    },
+    es: {
+      invalidEmail: 'Correo inválido',
+      emailRequired: 'El correo electrónico es obligatorio',
+      passwordRequired: 'La contraseña es obligatoria',
+      passwordMinLength: 'La contraseña debe tener al menos 3 caracteres',
+      greet: 'Hola',
+      exit: 'Cerrar sesión',
+      customer: 'Cliente',
+      newCustomer: 'Nuevo Cliente',
+      orders: 'Pedidos',
+      products: 'Productos',
+      newProduct: 'Nuevo Producto',
+      noData: 'No hay datos por Mostrar',
+      available: 'Disponible',
+      delete: 'Eliminar',
+      edit: 'Editar',
+      comfirmDeleteCustomer: 'Deseas eliminar este cliente?',
+      comfirmDeleteProduct: 'Deseas eliminar este producto?',
+      warningMessage: "Esta acción no se puede deshacer!",
+      confirmButtonText: 'Si, eliminar!',
+      cancelButtonText: 'No, cancelar!',
+      removed: 'Eliminado',
+      acept: 'Aceptar',
+      formName: 'Nombre es Obligatorio',
+      forExistence: 'Existencia es Obligatorio',
+      price: 'Precio es Obligatorio',
+      name: 'Nombre',
+      existence:'Existencia',
+      newOrder: 'Nuevo Pedido',
+      registerOrder: 'Registrar Pedido',
+      bestCustomers: 'Mejores Clientes',
+      bestSellers: 'Mejores Vendedores'
+    }
+   
+  };
+
+  export const dictionaryUrls = {
+    customer: '/',
+    orders: '/pedidos',
+    products: '/productos',
+    editProduct: '/editarproducto',
+    newProducts: '/nuevoProducto',
+    customerNew: '/nuevoCliente',
+    newOrder: '/nuevopedido',
+    bestCustomers: '/mejoresclientes',
+    bestSellers: '/mejoresvendedores',
+
+  }
+  
+  export default dictionary;
+  
